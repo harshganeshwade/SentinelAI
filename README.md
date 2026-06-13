@@ -84,3 +84,15 @@ SPLUNK_VERIFY_SSL=true
 ## Notes
 
 This repository provides a starter scaffolding for SentinelAI. The AI integration and Splunk connectivity are implemented as placeholders and can be extended for production use.
+
+## GitHub Repository
+
+This project is published publicly at:
+
+- https://github.com/harshganeshwade/SentinelAI
+
+## Important
+
+- The `.env` file is intentionally excluded from source control.
+- Keep your API keys and Splunk token private.
+- Build artifacts in `frontend/dist/` are not tracked in git.
