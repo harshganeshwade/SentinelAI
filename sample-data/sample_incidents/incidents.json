@@ -1,0 +1,12 @@
+[
+  {
+    "id": "incident-001",
+    "title": "Failed login brute force detected",
+    "severity": "High",
+    "source": "Splunk Alert",
+    "timestamp": "2026-06-13T08:42:00Z",
+    "status": "Open",
+    "summary": "Multiple authentication failures from a suspicious external IP were detected, indicating a potential brute force attack.",
+    "affected_asset": "Domain Controller"
+  }
+]

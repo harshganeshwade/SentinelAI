@@ -1,0 +1,9 @@
+{
+  "id": "alert-001",
+  "title": "Brute Force Login Attempts Detected",
+  "source": "Splunk Alert",
+  "timestamp": "2026-06-13T08:42:00Z",
+  "description": "Multiple failed login attempts detected from a single external IP address.",
+  "source_ip": "198.51.100.42",
+  "severity": "High"
+}

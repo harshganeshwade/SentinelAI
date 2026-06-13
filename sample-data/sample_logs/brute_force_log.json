@@ -1,0 +1,20 @@
+[
+  {
+    "timestamp": "2026-06-13T08:40:01Z",
+    "user": "admin",
+    "source_ip": "198.51.100.42",
+    "event": "Failed login",
+    "geo": "India",
+    "status": "failure",
+    "count": 7
+  },
+  {
+    "timestamp": "2026-06-13T08:41:15Z",
+    "user": "admin",
+    "source_ip": "198.51.100.42",
+    "event": "Failed login",
+    "geo": "India",
+    "status": "failure",
+    "count": 5
+  }
+]

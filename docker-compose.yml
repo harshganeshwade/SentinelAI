@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend
+    container_name: sentinelai-backend
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+    ports:
+      - 8000:8000
+    volumes:
+      - ./backend:/app
+      - ./sample-data:/app/sample-data
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - SPLUNK_BASE_URL=${SPLUNK_BASE_URL}
+      - SPLUNK_TOKEN=${SPLUNK_TOKEN}
+
+  frontend:
+    build: ./frontend
+    container_name: sentinelai-frontend
+    ports:
+      - 5173:5173
+    volumes:
+      - ./frontend:/app
+    command: npm run dev -- --host 0.0.0.0
